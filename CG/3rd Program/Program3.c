@@ -7,11 +7,14 @@ int axis = 0;
 
 void polygon(int a, int b, int c, int d)
 {
-    glBegin(GL_LINE_LOOP);
-    glColor3fv(v[0]);
+    glBegin(GL_POLYGON);
+    glColor3fv(v[a]);
     glVertex3fv(v[a]);
+    glColor3fv(v[b]);
     glVertex3fv(v[b]);
+    glColor3fv(v[c]);
     glVertex3fv(v[c]);
+    glColor3fv(v[d]);
     glVertex3fv(v[d]);
     glEnd();
 }
@@ -86,7 +89,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("My Boi 1JS18CS403 Cube program");
+    glutCreateWindow("1JS18CS403 - Dhruva V : COLOR CUBE AND SPIN");
     glutReshapeFunc(myReshape);
     glutDisplayFunc(display);
     glutIdleFunc(spinCube);
@@ -94,3 +97,6 @@ int main(int argc, char **argv)
     glEnable(GL_DEPTH_TEST);
     glutMainLoop();
 }
+
+// dhruvawara@dbuntu:~/6th-SEM-LAB/CG/3rd Program$ cc Program3.c -lglut -lGL -lGLU -lm -o Program3.out
+// dhruvawara@dbuntu:~/6th-SEM-LAB/CG/3rd Program$ ./Program3.out

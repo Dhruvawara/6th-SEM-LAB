@@ -77,17 +77,18 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_DEPTH);
     glutInitWindowSize(800, 800);
-    glutCreateWindow("My A Boi 1JS18CS403 3D SIERPINSKI GASKET OUTPUT");
+    glutCreateWindow("1JS18CS403 - Dhruva V : 3D SIERPINSKI GASKET");
     init();
     glutDisplayFunc(display);
     glEnable(GL_DEPTH_TEST);
     glutMainLoop();
 }
 
-/*
-bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ cc Program7.c -lglut -lGL -lGLU -lm -o Program7OP.out
-bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ ./Program7OP.out
-Enter no of Steps : 2
-bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ ./Program7OP.out
-Enter no of Steps : 3
- */
+
+// bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ cc Program7.c -lglut -lGL -lGLU -lm -o Program7OP.out
+// bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ ./Program7OP.out
+// Enter no of Steps : 2
+// bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ ./Program7OP.out
+// Enter no of Steps : 3
+// bloodydragon@ubuntu:~/6th-SEM-LAB/CG/7th Program$ ./Program7OP.out
+// Enter no of Steps : 4

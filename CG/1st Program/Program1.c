@@ -1,3 +1,5 @@
+// Implement Bresenham's line drawing algorithm for all types of slope.
+
 #include <stdio.h>
 #include <GL/glut.h>
 
@@ -13,7 +15,7 @@ void minit()
 
 void dp(int x, int y)
 {
-    glColor3i(0,0,0);
+    glColor3i(0, 0, 0);
     glBegin(GL_POINTS);
     glVertex2i(x, y);
     glEnd();
@@ -110,7 +112,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("My A Boi 1JS18CS403 BRENHAM'S LINE DRAWING ALGORITHM OUTPUT");
+    glutCreateWindow("BRENHAM'S LINE DRAWING ALGORITHM");
     minit();
     glutDisplayFunc(mDisplay);
     glutMainLoop();
@@ -119,7 +121,7 @@ int main(int argc, char **argv)
 // bloodydragon@ubuntu:~/6th-SEM-LAB/CG/1st Program$ cc Program1.c -lglut -lGL -lGLU -lm -o Program1.out
 
 // bloodydragon@ubuntu:~/6th-SEM-LAB/CG/1st Program$ ./Program1.out
-// Enter 1 : 20 35 
+// Enter 1 : 20 35
 // Enter 2 : 120 155
 // 20      35
 // 21      36
