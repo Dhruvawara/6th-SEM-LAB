@@ -133,3 +133,6 @@ int main(int argc, char **argv)
     glutAttachMenu(GLUT_RIGHT_BUTTON);
     glutMainLoop();
 }
+
+// dhruvawara@dbuntu:~/6th-SEM-LAB/CG/9th Program$ cc Program9.c -lglut -lGL -lGLU -lm -o Program9.out
+// dhruvawara@dbuntu:~/6th-SEM-LAB/CG/9th Program$ ./Program9.out
