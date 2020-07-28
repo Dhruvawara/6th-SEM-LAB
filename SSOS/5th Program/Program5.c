@@ -6,7 +6,8 @@
 //      T3 = T1 + T2   	 	
 //      A = T3
 #include <stdio.h>
-#include <stdlib.h>  #include<ctype.h> 
+#include <stdlib.h>  
+#include<ctype.h> 
 char op[2],arg1[5],arg2[5],result[5];
 void main()
 {
