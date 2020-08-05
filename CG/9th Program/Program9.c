@@ -120,7 +120,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(700, 700);
-    glutCreateWindow("1JS18CS403 - Dhruva V : SCAN LINE ALGORITHM");
+    glutCreateWindow("1JS18CS421 - Shreyas N S : SCAN LINE ALGORITHM");
     glutDisplayFunc(display);
     minit();
     sb = glutCreateMenu(cm);

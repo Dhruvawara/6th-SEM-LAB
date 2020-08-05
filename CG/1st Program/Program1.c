@@ -112,7 +112,7 @@ int main(int argc, char **argv)
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("BRENHAM'S LINE DRAWING ALGORITHM");
+    glutCreateWindow("1JS18CS403 - Dhruva V : BRENHAM'S LINE DRAWING ALGORITHM");
     minit();
     glutDisplayFunc(mDisplay);
     glutMainLoop();
